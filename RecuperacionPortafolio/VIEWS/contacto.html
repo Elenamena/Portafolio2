@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="icon" href="../IMG/logo.png">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <div class="container">
+     <nav>
+        <a href="./conoceme.html"></a>
+        <a href="./formacion.html"></a>
+        <a href="./index.html"></a>
+        <a href="./galeria.html"></a>
+        <a href="./idiomas.html"></a>
+        <a href="./informacion.html"></a>
+        <a href="./contacto.html"></a>
+     </nav>
+
+     <header>
+        <h1>Elena Mena Romero</h1>
+        <h2>Desarrolladora web</h2>
+        <nav>
+            <ul>
+                <li><a href="conoceme.html">Conóceme</a></li>
+                <li><a href="formacion.html">Formación</a></li>
+                <li><a href="index.html">Habilidades</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="idiomas.html">Idiomas</a></li>
+                <li><a href="informacion.html">Información</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+     </header>
+     <main>
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <p>Email: menaromero.elena@gmail.com</p>
+            <p>Instagram: elenamena_</p>
+            <p>Teléfono: 622 05 67 51</p>
+            <a href="https://github.com/Elenamena">Git Hub</a>
+        </section>
+     </main>
+
+     <footer id="Contactame">
+        <h2>Contáctame :)</h2>
+        <form action="enviar_formulario.php" method="post" class="form-container">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <br>
+  
+          <label for="lastname">Apellidos:</label>
+          <input type="text" id="lastname" name="lastname" required>
+          
+          <br>
+  
+          <label>Género:</label>
+          <div class="gender"><br>
+              <input type="radio" id="male" name="gender" value="male" required><br>
+              <label for="male">Femenino</label><br>
+  
+              <input type="radio" id="female" name="gender" value="female"><br>
+              <label for="female">Masculino</label><br>
+  
+              <input type="radio" id="other" name="gender" value="other"><br>
+              <label for="other">Otro</label><br>
+          </div>
+  
+          <label for="email">Correo electrónico:</label><br>
+          <input type="email" id="email" name="email" required><br>
+  
+          <label for="reason">Motivo de consulta:</label><br>
+          <select id="reason" name="reason" required><br>
+              <option value="">Selecciona una opción</option><br>
+              <option value="consulta">Consultar información</option><br>
+              <option value="soporte">Buscar ayuda</option><br>
+              <option value="sugerencia">Sugerencias</option><br>
+              <option value="sugerencia">Contratación</option><br>
+              <option value="sugerencia">Entrevista</option><br>
+          </select>
+  
+          <label for="message">Mensaje:</label><br>
+          <textarea id="message" name="message" rows="4" required></textarea><br>
+  
+          <div class="terms">
+              <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">Acepto los términos y condiciones</label><br>
+          </div>
+  
+          <a href="https://github.com/Elenamena" target="_blank">
+            <button type="submit" class="submit-btn">Enviar</button>
+          </a>
+      </form>
+        
+    
+        <div class="redessociales">
+          <a href="https://www.instagram.com/elenamena._/" target="_blank">
+            <img src="../IMG/insta.webp" alt="logo insta">
+          </a>
+          <a  href="https://github.com/Elenamena" target="_blank">
+            <img src="../IMG/github.png" alt="logo git hub">
+          </a>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
+
+
